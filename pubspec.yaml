@@ -1,0 +1,46 @@
+name: pawfect_match
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  bloc:
+  flutter_bloc:
+  flutter_dotenv: ^5.2.1
+  http:
+  flutter_screenutil: ^5.9.3
+  provider:
+  shared_preferences: ^2.5.3
+  bloc_concurrency: ^0.3.0
+  dotted_border: ^2.0.0
+  cached_network_image: ^3.4.1
+  font_awesome_flutter: ^10.7.0
+  auto_size_text: ^3.0.0
+  pull_to_refresh: ^2.0.0
+  confetti: ^0.8.0
+  bloc_test: ^10.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  hive_generator: ^2.0.1
+
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - .env
